@@ -9,7 +9,6 @@ export default defineConfig({
   optimizeDeps: {
     include: ["swiper"]
   },
-  
   server: {
     historyApiFallback: true,
   },
