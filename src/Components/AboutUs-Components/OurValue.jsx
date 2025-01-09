@@ -5,7 +5,7 @@ const OurValue = () => {
     return (
         <div className="flex flex-col md:flex-row relative w-full h-auto bg-[#052137] text-white rounded-lg overflow-hidden pb-8">
             <div className="flex md:w-1/2 w-auto justify-center md:pr-12 ">
-            <img src='innovation.png' className='w-full'></img>
+            <img src='innovation.png' className='w-full h-[30rem]'></img>
             </div>
             <div className="md:w-1/2 w-auto pl-8 md:pl-0">
                 <p className="relative mt-12 text-sm text-left font-medium text-[#ff6000] md:text-xl md:leading-[1]">OUR VALUE</p>

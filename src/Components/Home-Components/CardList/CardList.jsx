@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./css.css";
 import "./CardList.css";
 
@@ -46,7 +47,7 @@ const CardList = () => {
       title: "Consultancy Services",
       description:
         "Leverage our expertise and industry insights to optimize your IT infrastructure and processes.",
-    },
+      },
     {
       icon: <MdOutlineSecurity />,
       title: "Cyber Security",
@@ -121,6 +122,7 @@ const CardList = () => {
             {index === 0 && <CanvasEffect />}
 
             {index === 1 && (
+              
               <div className="circuit">
                 <video
                   ref={videoRef1}
@@ -134,6 +136,7 @@ const CardList = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
+              
             )}
 
             {index === 2 && (
@@ -227,20 +230,21 @@ const CardList = () => {
               </div>
             )}
 
-            <h4>{card.title}</h4>
-            <p>{card.description}</p>
-
-            <div className="shine"></div>
-            <div className="background">
-              <div className="tiles">
-                {[...Array(10)].map((_, index) => (
-                  <div key={index} className={`tile tile-${index + 1}`}></div>
-                ))}
-              </div>
-              <div className="line line-1"></div>
-              <div className="line line-2"></div>
-              <div className="line line-3"></div>
-            </div>
+<Link to={`/service/${index}`}>
+  <h4>{card.title}</h4>
+  <p>{card.description}</p>
+  <div className="shine"></div>
+  <div className="background">
+    <div className="tiles">
+      {[...Array(10)].map((_, index) => (
+        <div key={index} className={`tile tile-${index + 1}`}></div>
+      ))}
+    </div>
+    <div className="line line-1"></div>
+    <div className="line line-2"></div>
+    <div className="line line-3"></div>
+  </div>
+</Link>
           </div>
         ))}
       </div>

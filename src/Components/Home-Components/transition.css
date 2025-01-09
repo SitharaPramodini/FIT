@@ -37,3 +37,11 @@
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
   }
+
+
+  /* footer  */
+  .footeranim{
+    animation: appearDiscover linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }

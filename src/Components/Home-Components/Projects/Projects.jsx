@@ -13,79 +13,79 @@ const Projects = () => {
       bold: "281 Million",
       description:
         "SD-WAN with 375 Branches with PR and DR",
-      img: "/projects/peoples.png",
+      img: "projects/peoples.png",
     },
     {
         name: "Mohamed Yousef",
         description: "FortiGate SD-WAN Cisco LAN Network Cisco Firepower FW NEC IP Communication System 10,000+ Users",
         bold: "165 Million",
-        img: "/projects/singer.png",
+        img: "projects/singer.png",
       },
       {
         name: "Mohamed Yousef",
         description: "Cisco LAN Network, Cisco Firewall",
         bold: "75 Million",
-        img: "/projects/airtel.png",
+        img: "projects/airtel.png",
       },
       {
         name: "Mohamed Yousef",
         description: "LAN, Firewall, PABX, SD-WAN, WIFI, Data backup & replication Email 6500+ Users",
         bold: "148 Million",
-        img: "/projects/hayleys.png",
+        img: "projects/hayleys.png",
       },
       {
         name: "Mohamed Yousef",
         description: "PABX Solution Call Center Solution 200+ Users",
         bold: "45 Million",
-        img: "/projects/motor.png",
+        img: "projects/motor.png",
       },
       {
         name: "Mohamed Yousef",
         description: "LAN, Wi-Fi, PABX, Public Address, Media Hub, GRMS, BGM IP TV, Structured Caballing, Fire, Electrical 2000+ Users",
         bold: "645 Million",
-        img: "/projects/araliya.png",
+        img: "projects/araliya.png",
       },
       {
         name: "Mohamed Yousef",
         description: "LAN, Firewall, Wi-Fi, PABX, 3000+ Users, lighting",
         bold: "247 Million",
-        img: "/projects/council.png",
+        img: "projects/council.png",
       },
       {
         name: "Mohamed Yousef",
         description: "E- mail Solution Spam Filtering Datacenter, UPS, IP Video ( CCTV), Structured Caballing 10,000+ Users",
         bold: "184 Million",
-        img: "/projects/boc.png",
+        img: "projects/boc.png",
       },
       {
         name: "Mohamed Yousef",
         description: "Ruckus Wi-Fi Datacenter, UPS",
         bold: "95 Million",
-        img: "/projects/telecome.png",
+        img: "projects/telecome.png",
       },
       {
         name: "Mohamed Yousef",
         description: "Cisco LAN Network, Paloalto Firewall, Fortigate Firewall",
         bold: "95 Million",
-        img: "/projects/siyapatha.png",
+        img: "projects/siyapatha.png",
       },
       {
         name: "Mohamed Yousef",
         description: "LAN, Wi-Fi, Firewall, PABX Video Conferencing Door Access Control, Structured Caballing",
         bold: "157 Million",
-        img: "/projects/DS.png",
+        img: "projects/DS.png",
       },
       {
         name: "Mohamed Yousef",
         description: "SD-WAN with 375 Branches with PR and DR",
         bold: "281 Million",
-        img: "/projects/defence.png",
+        img: "projects/defence.png",
       },
   ];
 
   return (
     // <div className="home flex w-full bg-[#161616] px-4 pt-16">
-    <section className="slide-container md:h-[100vh] h-auto bg-[#020a1a] ">
+    <section className="slide-container h-auto bg-[#020a1a] ">
         <h2 class="pt-4 text-3xl text-center font-bold text-white md:text-5xl md:leading-[1.2]">Key Projects</h2>
 
       <Swiper
@@ -112,8 +112,8 @@ const Projects = () => {
 >
         {cards.map((card, index) => (
           <SwiperSlide key={index} className="swiper-slide ">
-            <div className="container mt-20 ">
-              <div className="proj-card">
+            <div className="container w-[237px] mt-20 ">
+              <div className="proj-card w-[237px] bg-white">
                 <div className="image">
                 {/* <h3>hello</h3> */}
                   <img src={card.img} alt={card.name} className="mt-[-3rem]" />

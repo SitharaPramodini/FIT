@@ -54,7 +54,11 @@ const Matrix = () => {
     // return () => clearInterval(interval);
   }, []);
 
-  return <canvas ref={canvasRef} />;
+  return (
+    <div>
+      <canvas ref={canvasRef} />
+    </div>
+  );
 };
 
 export default Matrix;

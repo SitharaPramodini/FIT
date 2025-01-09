@@ -1,6 +1,11 @@
 import React, { useEffect, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StoriesHome from "./Components/Stories/StoriesHome";
+// import Informationsecurity from "./Pages/InformationSecurity";
+import Services from "./Pages/Services";
+import ServiceSlider from "./Components/Services/ServiceSlider";
+import DatacenterDivider from "./Components/Services/DatacenterDivider";
+import Contact from "./Pages/Contact";
 
 const Home = React.lazy(() => import("./Pages/Home"));
 const Navbar = React.lazy(() => import("./Components/Navbar"));
@@ -34,6 +39,15 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/stories" element={<StoriesHome />} />
+          <Route path="/service/:index" element={<Services />} />
+
+          <Route path="/slider" element={<DatacenterDivider />} />
+          {/* <Route path="/consultancyservices" element={<ConsultancyServices />} /> */}
+
+          {/* services */}
+          {/* <Route path="/stories" element={<StoriesHome />} /> */}
+          <Route path="/contact" element={<Contact />} />
+
         </Routes>
       </Suspense>
     </BrowserRouter>
