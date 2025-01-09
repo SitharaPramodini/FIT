@@ -1,5 +1,5 @@
 import React from 'react';
-import '../AboutUs-Components/ourValue.css';
+import '../AboutUs-Components/ourvalue.css';
 
 const CyberSplit = () => {
     return (
