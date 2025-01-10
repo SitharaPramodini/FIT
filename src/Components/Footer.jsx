@@ -14,7 +14,7 @@ const Footer = () => {
           muted
           className="w-full h-full object-cover opacity-50"
         >
-          <source src="/footer-bg.mp4" type="video/mp4" />
+          <source src="/fit/public/footer-bg.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="flex md:flex-row flex-col w-full gap-y-12">
         {/* Logo and Contact Section */}
         <div className="flex flex-col md:w-1/4 w-11/12">
-          <img src="/logo.webp" className=" md:ml-12 my-2 w-20 pl-4 md:pl-0" alt="Logo" />
+          <img src="/fit/public/logo.webp" className=" md:ml-12 my-2 w-20 pl-4 md:pl-0" alt="Logo" />
           <div className="flex flex-col md:pl-11 pl-4 pr-2">
             <div className="flex flex-row items-center gap-3 pt-4">
               <div className="text-lg">

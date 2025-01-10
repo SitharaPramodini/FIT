@@ -4,22 +4,22 @@ import "./slider.css";
 const ServiceSlider = () => {
   // Array with paths to 17 images
   const cards = [
-    "/principles/apache.png",
-    "/principles/3CX.png",
-    "/principles/cisco.png",
-    "/principles/edb.png",
-    "/principles/fcs.png",
-    "/principles/forcepoint.png",
-    "/principles/fortinet.png",
-    "/principles/hewlett.png",
-    "/principles/nec.png",
-    "/principles/nexans.png",
-    "/principles/openstack.png",
-    "/principles/paloalto.svg",
-    "/principles/radware.png",
-    "/principles/redhat.png",
-    "/principles/vicarius.png",
-    "/principles/zimbra.png",
+    "/fit/public/principles/apache.png",
+    "/fit/public/principles/3CX.png",
+    "/fit/public/principles/cisco.png",
+    "/fit/public/principles/edb.png",
+    "/fit/public/principles/fcs.png",
+    "/fit/public/principles/forcepoint.png",
+    "/fit/public/principles/fortinet.png",
+    "/fit/public/principles/hewlett.png",
+    "/fit/public/principles/nec.png",
+    "/fit/public/principles/nexans.png",
+    "/fit/public/principles/openstack.png",
+    "/fit/public/principles/paloalto.svg",
+    "/fit/public/principles/radware.png",
+    "/fit/public/principles/redhat.png",
+    "/fit/public/principles/vicarius.png",
+    "/fit/public/principles/zimbra.png",
 
   ];
 
@@ -34,7 +34,7 @@ const ServiceSlider = () => {
             muted
             className="w-full h-full object-cover opacity-100"
           >
-            <source src="/principles/bg.mp4" type="video/mp4" />
+            <source src="/fit/public/principles/bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

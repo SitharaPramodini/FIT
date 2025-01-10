@@ -2,7 +2,7 @@
 
 const services = [
   {
-    videoSource: "/matrix.mp4",
+    videoSource: "/fit/public/matrix.mp4",
     title: "Information Security",
     subtitle:
       "Information Security Solutions protect sensitive data with firewalls, encryption, and intrusion detection, helping organisations mitigate risks and secure digital assets.",
@@ -47,7 +47,7 @@ const services = [
       "We help businesses create and implement cutting-edge strategies to innovate and stay ahead of the competition.",
   },
   {
-    videoSource: "/circuit3.mp4",
+    videoSource: "/fit/public/circuit3.mp4",
     title: "Consultancy Service",
     subtitle:
       "IT consultancy offers expert guidance, optimizing infrastructure, enhancing efficiency, reducing costs, and providing ongoing support for business goals.",
@@ -62,7 +62,7 @@ const services = [
       "Our cybersecurity solutions safeguard your organization from evolving threats and vulnerabilities.",
   },
   {
-    videoSource: "/cyber.mp4",
+    videoSource: "/fit/public/cyber.mp4",
     title: "Cyber Security",
     subtitle:
       "FIT offers expert cybersecurity services to protect and enhance your organization’s digital infrastructure and resilience.",
@@ -166,7 +166,7 @@ const services = [
       "We offer robust server infrastructure to ensure your business runs smoothly with high availability and scalability.",
   },
   {
-    videoSource: "/Server.mp4",
+    videoSource: "/fit/public/Server.mp4",
     title:
       "Data Center Solutions, Virtualization, Servers, Storage, and Backup",
     subtitle:
@@ -232,7 +232,7 @@ const services = [
     ],
   },
   {
-    videoSource: "/Collaboration.mp4",
+    videoSource: "/fit/public/Collaboration.mp4",
     title: "Collaboration Suites and Applications",
     subtitle:
       "Our integrated solutions boost secure, efficient teamwork with integrated email, productivity tools, and advanced security features like DLP and AI-powered protection.",
@@ -286,7 +286,7 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/ManageService.mp4",
+    videoSource: "/fit/public/ManageService.mp4",
     title: "Next Generation Managed Services Provider",
     subtitle:
       "Entrust your IT infrastructure to our managed services for reliable, secure performance, enabling you to focus on core business.",
@@ -316,7 +316,7 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/Network.mp4",
+    videoSource: "/fit/public/Network.mp4",
     title: "IP PABX and Unified Communication Systems",
     subtitle:
       "Streamline communication with our IP PABX and Unified Systems, enhancing real-time collaboration and boosting productivity across platforms.",
@@ -336,7 +336,7 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/Network.mp4",
+    videoSource: "/fit/public/Network.mp4",
     title: "Enterprise Networking",
     subtitle:
       "FIT’s enterprise networking solutions optimize performance, enhance agility, and support seamless communication, ensuring scalable infrastructure for growing business needs.",
@@ -376,7 +376,7 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/innovation.mp4",
+    videoSource: "/fit/public/innovation.mp4",
     title: "Innovation Centre",
     subtitle:
       "At Center of Innovation Make your vision a Reality. Transform your business idea into a cutting-edge digital solution!",

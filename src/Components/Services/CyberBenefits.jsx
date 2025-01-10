@@ -12,7 +12,7 @@ const CyberBenefits = () => {
                 muted
                 loop
             >
-                <source src="/contact.mp4" type="video/mp4" />
+                <source src="/fit/public/contact.mp4" type="video/mp4" />
                 {/* Fallback message for browsers that don't support the video */}
                 Your browser does not support the video tag.
             </video>

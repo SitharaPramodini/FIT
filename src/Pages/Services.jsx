@@ -35,7 +35,6 @@ const Services = () => {
   const handleReadMoreClick = (index) => {
     setExpandedIndex(expandedIndex === index ? null : index); // Toggle the expansion
   };
-  console.log(index);
 
   return (
     <div>

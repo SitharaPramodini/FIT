@@ -47,7 +47,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ1" style={{ "--item-count": 1 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 32 32">
-                                    <img src="/Innoprojects/angular.png" alt="Angular" />
+                                    <img src="/fit/public/Innoprojects/angular.png" alt="Angular" />
                                 </div>
                                 <span className="links__text">Angular</span>
                             </a>
@@ -55,7 +55,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ2" style={{ "--item-count": 2 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 31 32">
-                                    <img src="/Innoprojects/.net.png" alt=".NET" />
+                                    <img src="/fit/public/Innoprojects/.net.png" alt=".NET" />
                                 </div>
                                 <span className="links__text">.NET Core</span>
                             </a>
@@ -63,7 +63,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ3" style={{ "--item-count": 3 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 32 32">
-                                    <img src="/Innoprojects/java.png" alt="Java" />
+                                    <img src="/fit/public/Innoprojects/java.png" alt="Java" />
                                 </div>
                                 <span className="links__text">JAVA</span>
                             </a>
@@ -71,7 +71,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ4" style={{ "--item-count": 4 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 32 32">
-                                    <img src="/Innoprojects/python.webp" alt="Python" />
+                                    <img src="/fit/public/Innoprojects/python.webp" alt="Python" />
                                 </div>
                                 <span className="links__text">Python</span>
                             </a>
@@ -79,7 +79,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ5" style={{ "--item-count": 5 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 22 32">
-                                    <img src="/Innoprojects/react.webp" alt="React" />
+                                    <img src="/fit/public/Innoprojects/react.webp" alt="React" />
                                 </div>
                                 <span className="links__text">React Js</span>
                             </a>
@@ -87,7 +87,7 @@ const InnoTechnology = () => {
                         <li className="links__item circ6" style={{ "--item-count": 6 }}>
                             <a className="links__link" href="#">
                                 <div className="links__icon" viewBox="0 0 22 32">
-                                    <img src="/Innoprojects/php.png" alt="PHP" />
+                                    <img src="/fit/public/Innoprojects/php.png" alt="PHP" />
                                 </div>
                                 <span className="links__text">PHP</span>
                             </a>

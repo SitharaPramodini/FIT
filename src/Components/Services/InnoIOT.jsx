@@ -22,7 +22,7 @@ const InnoIOT = () => {
             <div class="innocard h-[350px] w-[300px]">
                 <div class="content">
                     <div class="imgBx w-[100px] mt-12">
-                        <img src="/innovation/controller.jpg" />
+                        <img src="/fit/public/innovation/controller.jpg" />
                     </div>
                     <div class="contentBx">
                         <h3> <h1 className="mb-4">Controllers<br></br></h1>
@@ -41,7 +41,7 @@ const InnoIOT = () => {
             <div class="innocard h-[350px] w-[300px]">
                 <div class="content">
                     <div class="imgBx w-[100px] mt-12">
-                        <img src="/innovation/switch.webp" />
+                        <img src="/fit/public/innovation/switch.webp" />
                     </div>
                     <div class="contentBx">
                         <h3> <h1 className="mb-4">Switches<br></br></h1>
@@ -59,7 +59,7 @@ const InnoIOT = () => {
             <div class="innocard h-[350px] w-[300px]">
                 <div class="content">
                     <div class="imgBx w-[100px] mt-12">
-                        <img src="/innovation/sensor.webp"/>
+                        <img src="/fit/public/innovation/sensor.webp"/>
                     </div>
                     <div class="contentBx">
                         <h3 ><h1 className="mb-4">Sensors<br></br></h1>

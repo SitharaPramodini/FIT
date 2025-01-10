@@ -32,7 +32,7 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/innovation/digital.mp4" type="video/mp4" />
+                                <source src="/fit/public/innovation/digital.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -71,13 +71,13 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/innovation/software.mp4" type="video/mp4" />
+                                <source src="/fit/public/innovation/software.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div className="content">
                             <div className="imgBx w-full mt-12">
-                                {/* <img src="/innovation/sa.png" alt="Software Application" /> */}
+                                {/* <img src="/fit/public/innovation/sa.png" alt="Software Application" /> */}
                             </div>
                             <div className="contentBx">
                                 <h3>
@@ -110,7 +110,7 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/innovation/iot.mp4" type="video/mp4" />
+                                <source src="/fit/public/innovation/iot.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
