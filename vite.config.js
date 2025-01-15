@@ -12,5 +12,5 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
   },
-  base: "/fit/",
+  // base: "/fit/",
 })

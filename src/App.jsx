@@ -37,18 +37,18 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Navbar />
         <Routes>
-          <Route path="/fit/" element={<Home />} />
-          <Route path="/fit/aboutus" element={<AboutUs />} />
-          <Route path="/fit/stories" element={<StoriesHome />} />
-          <Route path="/fit/service/:index" element={<Services />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/stories" element={<StoriesHome />} />
+          <Route path="/service/:index" element={<Services />} />
 
-          <Route path="/fit/slider" element={<DatacenterDivider />} />
-          {/* <Route path="/fit/consultancyservices" element={<ConsultancyServices />} /> */}
+          <Route path="/slider" element={<DatacenterDivider />} />
+          {/* <Route path="/consultancyservices" element={<ConsultancyServices />} /> */}
 
           {/* services */}
-          {/* <Route path="/fit/stories" element={<StoriesHome />} /> */}
-          <Route path="/fit/contact" element={<Contact />} />
-          <Route path="/fit/awards" element={<Stage />}></Route>
+          {/* <Route path="/stories" element={<StoriesHome />} /> */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/awards" element={<Stage />}></Route>
 
         </Routes>
       </Suspense>
