@@ -12,7 +12,7 @@ const CyberBenefits = () => {
                 muted
                 loop
             >
-                <source src="/fit/public/contact.mp4" type="video/mp4" />
+                <source src="/test/contact.mp4" type="video/mp4" />
                 {/* Fallback message for browsers that don't support the video */}
                 Your browser does not support the video tag.
             </video>
@@ -20,11 +20,11 @@ const CyberBenefits = () => {
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
 
-            <div className="relative z-20">
+            <div className="relative z-20 ">
 
                     <h2 className="animate-on-scroll md:px-48 px-1 text-title text-2xl font-bold text-white md:text-5xl md:leading-[1.2] text-center">Benefits of Cybersecurity Awareness Training</h2>
-      
-            <ul className="item-list md:w-1/2 w-10/12 items-center mx-auto mt-20">
+      <div className="pl-32 pt-24">
+            <ul className="item-list md:w-1/2 w-8/12 items-center ml-10">
                     <li className="item">
                         <div className="label bg-[#fff0ff30] pl-10">
                             <h4>Reduced Risk of Cyber Incidents</h4>
@@ -67,6 +67,7 @@ const CyberBenefits = () => {
                     </li>
                     
                 </ul>
+                </div>
                 </div>
             
         </div>

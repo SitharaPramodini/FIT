@@ -14,17 +14,17 @@ const InnoIOT = () => {
                     </h2>
                 </div>
                 <div className="hidden md:flex righthr w-3/5 flex-col justify-around pl-6">
-                    <hr class="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+                    <hr className="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
 
                 </div>
             </div>
-        <div class="innocontainer">
-            <div class="innocard h-[350px] w-[300px]">
-                <div class="content">
-                    <div class="imgBx w-[100px] mt-12">
-                        <img src="/fit/public/innovation/controller.jpg" />
+        <div className="innocontainer">
+            <div className="innocard h-[350px] w-[300px]">
+                <div className="content">
+                    <div className="imgBx w-[100px] mt-12">
+                        <img src="/test/innovation/controller.jpg" />
                     </div>
-                    <div class="contentBx">
+                    <div className="contentBx">
                         <h3> <h1 className="mb-4">Controllers<br></br></h1>
                             <span>WiFi Circuit Breaker 2P NO Mete. Available for 10A
                                 to 80A current. Without Power Meter , Without
@@ -32,43 +32,43 @@ const InnoIOT = () => {
                                 32A, 40A, 50A, 63A, 80A</span></h3>
                     </div>
                 </div>
-                <ul class="sci" >
+                <ul className="sci" >
                     <li>
                         <a href="">Discover Now</a>
                     </li>
                 </ul>
             </div>
-            <div class="innocard h-[350px] w-[300px]">
-                <div class="content">
-                    <div class="imgBx w-[100px] mt-12">
-                        <img src="/fit/public/innovation/switch.webp" />
+            <div className="innocard h-[350px] w-[300px]">
+                <div className="content">
+                    <div className="imgBx w-[100px] mt-12">
+                        <img src="/test/innovation/switch.webp" />
                     </div>
-                    <div class="contentBx">
+                    <div className="contentBx">
                         <h3> <h1 className="mb-4">Switches<br></br></h1>
                             <span>US WiFi Touch Switch With Smart Life/Tuya App
                                 Control Light Switch 1/2/3 Gang Support Alexa
                                 Google Smart Home Customized</span></h3>
                     </div>
                 </div>
-                <ul class="sci" >
+                <ul className="sci" >
                     <li className="text-[#ff6000]">
                         <a href="">Discover Now</a>
                     </li>
                 </ul>
             </div>
-            <div class="innocard h-[350px] w-[300px]">
-                <div class="content">
-                    <div class="imgBx w-[100px] mt-12">
-                        <img src="/fit/public/innovation/sensor.webp"/>
+            <div className="innocard h-[350px] w-[300px]">
+                <div className="content">
+                    <div className="imgBx w-[100px] mt-12">
+                        <img src="/test/innovation/sensor.webp"/>
                     </div>
-                    <div class="contentBx">
+                    <div className="contentBx">
                         <h3 ><h1 className="mb-4">Sensors<br></br></h1>
                             <span>Smart WiFi Door Sensor Smart Door Open/Closed
                                 Detectors WiFi Window Sensor Work With Google
                                 Home Alexa</span></h3>
                     </div>
                 </div>
-                <ul class="sci" >
+                <ul className="sci" >
                     <li className="text-[#ff6000]">
                         <a href="">Discover Now</a>
                     </li>

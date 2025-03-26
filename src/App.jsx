@@ -1,16 +1,49 @@
 import React, { useEffect, Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import StoriesHome from "./Components/Stories/StoriesHome";
-// import Informationsecurity from "./Pages/InformationSecurity";
-import Services from "./Pages/Services";
-import ServiceSlider from "./Components/Services/ServiceSlider";
-import DatacenterDivider from "./Components/Services/DatacenterDivider";
-import Contact from "./Pages/Contact";
-import Stage from "./Components/Awards/Stage";
 
+// Lazy-loaded components
 const Home = React.lazy(() => import("./Pages/Home"));
 const Navbar = React.lazy(() => import("./Components/Navbar"));
 const AboutUs = React.lazy(() => import("./Pages/AboutUs"));
+const Stage = React.lazy(() => import("./Components/Awards/Stage"));
+const Contact = React.lazy(() => import("./Pages/Contact"));
+const Services = React.lazy(() => import("./Pages/Services"));
+const DatacenterDivider = React.lazy(() => import("./Components/Services/DatacenterDivider"));
+
+
+function AppRoutes() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Reload only once when navigating to "/awards"
+    if (location.pathname === "/test/awards" && !sessionStorage.getItem("awardsPageReloaded")) {
+      sessionStorage.setItem("awardsPageReloaded", "true");
+      window.location.reload();
+    } else if (location.pathname !== "/test/awards") {
+      sessionStorage.removeItem("awardsPageReloaded");
+    }
+  }, [location]);
+
+  return (
+    <>
+      {/* Navbar displayed across all routes */}
+      <Navbar />
+
+      <Routes>
+        {/* Define all routes */}
+        <Route path="/test/" element={<Home />} />
+        <Route path="/test/aboutus" element={<AboutUs />} />
+        <Route path="/test/stories" element={<StoriesHome />} />
+        <Route path="/test/service/:index" element={<Services />} />
+        <Route path="/test/slider" element={<DatacenterDivider />} />
+        <Route path="/test/contact" element={<Contact />} />
+        <Route path="/test/awards" element={<Stage />} />
+        <Route path="*" element={<Navigate to="/test/" />} />
+      </Routes>
+    </>
+  );
+}
 
 function App() {
   useEffect(() => {
@@ -33,24 +66,8 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* Suspense Wrapper */}
       <Suspense fallback={<div>Loading...</div>}>
-        <Navbar />
-        <Routes>
-          <Route path="/fit/" element={<Home />} />
-          <Route path="/fit/aboutus" element={<AboutUs />} />
-          <Route path="/fit/stories" element={<StoriesHome />} />
-          <Route path="/fit/service/:index" element={<Services />} />
-
-          <Route path="/fit/slider" element={<DatacenterDivider />} />
-          {/* <Route path="/fit/consultancyservices" element={<ConsultancyServices />} /> */}
-
-          {/* services */}
-          {/* <Route path="/fit/stories" element={<StoriesHome />} /> */}
-          <Route path="/fit/contact" element={<Contact />} />
-          <Route path="/fit/awards" element={<Stage />}></Route>
-
-        </Routes>
+        <AppRoutes />
       </Suspense>
     </BrowserRouter>
   );

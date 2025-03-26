@@ -32,7 +32,7 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/fit/public/innovation/digital.mp4" type="video/mp4" />
+                                <source src="/test/innovation/digital.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -71,13 +71,13 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/fit/public/innovation/software.mp4" type="video/mp4" />
+                                <source src="/test/innovation/software.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
                         <div className="content">
                             <div className="imgBx w-full mt-12">
-                                {/* <img src="/fit/public/innovation/sa.png" alt="Software Application" /> */}
+                                {/* <img src="/test/innovation/sa.png" alt="Software Application" /> */}
                             </div>
                             <div className="contentBx">
                                 <h3>
@@ -110,7 +110,7 @@ const Innovation = () => {
                                 playsInline
                                 preload="auto"
                             >
-                                <source src="/fit/public/innovation/iot.mp4" type="video/mp4" />
+                                <source src="/test/innovation/iot.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -139,10 +139,10 @@ const Innovation = () => {
             {/* Workflow Section */}
             <div className="home flex flex-row flex-wrap justify-around bg-[#161616] md:px-24 px-4 py-16">
                 <div className="flex flex-col">
-                    <h4 className="animate-on-scroll text-title text-xl font-semibold leading-none text-[#ff6000] md:text-2xl text-center">
+                    <h4 className=" text-title text-xl font-semibold leading-none text-[#ff6000] md:text-2xl text-center">
                         We Call it Digital Transformation
                     </h4>
-                    <h2 className="animate-on-scroll text-title mt-4 text-3xl font-bold text-white md:text-5xl md:leading-[1.2] text-center">
+                    <h2 className="text-title mt-4 text-3xl font-bold text-white md:text-5xl md:leading-[1.2] text-center">
                         For your very specific industry, we have highly-tailored Workflow solutions.
                     </h2>
                     <p className="animate-on-scroll text-subtitle my-4 text-xl font-thin text-[#ff6000] md:text-xl md:leading-[1] text-center">

@@ -14,7 +14,7 @@ const DatacenterDivider = () => {
             </p>
         </div>
         <div className="hidden md:flex righthr w-1/2 flex-col justify-around pl-6">
-        <hr class="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+        <hr className="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
 
         </div>
       </div>

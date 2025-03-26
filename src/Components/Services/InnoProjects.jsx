@@ -13,37 +13,37 @@ const InnoProjects = () => {
       bold: "Call Center Solution with CRM",
       description:
         "Sri Lanka Tourists Board",
-      img: "/fit/public/Innoprojects/sltda.jpg",
+      img: "/test/Innoprojects/sltda.jpg",
     },
     {
       name: "Mohamed Yousef",
       description: "Seylan Bank",
       bold: "Call Billing & Recording Solution",
-      img: "/fit/public/Innoprojects/seylan.png",
+      img: "/test/Innoprojects/seylan.png",
     },
     {
       name: "Mohamed Yousef",
       description: "Sampath Bank PLC",
       bold: "Customized SIP Phone Solution",
-      img: "/fit/public/Innoprojects/sampath.png",
+      img: "/test/Innoprojects/sampath.png",
     },
     {
       name: "Mohamed Yousef",
       description: "Asia Broadcasting Cooperation Limited",
       bold: "Custormized Missed Call App",
-      img: "/fit/public/Innoprojects/hiru.png",
+      img: "/test/Innoprojects/hiru.png",
     },
     {
       name: "Mohamed Yousef",
       description: "Seylan Bank",
       bold: "Call Billing & Recording Solution",
-      img: "/fit/public/Innoprojects/seylan.png",
+      img: "/test/Innoprojects/seylan.png",
     },
     {
       name: "Mohamed Yousef",
       description: "Sampath Bank PLC",
       bold: "Customized SIP Phone Solution",
-      img: "/fit/public/Innoprojects/sampath.png",
+      img: "/test/Innoprojects/sampath.png",
     },
   ];
 
@@ -61,7 +61,7 @@ const InnoProjects = () => {
           </h2>
         </div>
         <div className="hidden md:flex righthr w-3/5 flex-col justify-around pl-6">
-          <hr class=" h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+          <hr className=" h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
 
         </div>
       </div>
@@ -91,14 +91,14 @@ const InnoProjects = () => {
         {cards.map((card, index) => (
           <SwiperSlide key={index} className="swiper-slide ">
             <div className="container w-[266px] mt-20 ">
-              <div className="proj-card w-[266px] bg-[#ff6000]">
+              <div className="proj-card w-[266px] bg-[#fffff]">
                 <div className="image">
                   {/* <h3>hello</h3> */}
                   <img src={card.img} alt={card.name} className="mt-[-3rem]" />
                 </div>
                 <div className="content">
                   <p className=" text-gray-300 text-sm font-medium pb-4">{card.description}</p>
-                  <h2 class="mt-2 text-xl font-bold text-white md:text-2xl md:leading-[1]">{card.bold}</h2>
+                  <h2 className="mt-2 text-xl font-bold text-white md:text-2xl md:leading-[1]">{card.bold}</h2>
                 </div>
               </div>
             </div>

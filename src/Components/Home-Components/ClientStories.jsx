@@ -37,8 +37,8 @@ const ClientStories = () => {
   <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("bg.jpg")' }}></div> {/* Background image */}
   <div className="absolute inset-0 bg-black opacity-80"></div> {/* Dark overlay */}
       {/* Slide Container */}
-      <p class="relative mt-12 text-sm text-center font-medium text-[#ff6000] md:text-xl md:leading-[1]">OUR CLIENTS SPEAK</p>
-      <h2 class="relative pt-2 text-3xl text-center font-bold text-white md:text-5xl md:leading-[1.2]">Client Stories</h2>
+      <p className="relative mt-12 text-sm text-center font-medium text-[#ff6000] md:text-xl md:leading-[1]">OUR CLIENTS SPEAK</p>
+      <h2 className="relative pt-2 text-3xl text-center font-bold text-white md:text-5xl md:leading-[1.2]">Client Stories</h2>
       <p className="relative my-12 pl-4 text-center text-white text-xl">"Discover how our solutions have transformed businesses like yours"</p>
       <div
         className="relative w-full h-full flex transition-all duration-1000 ease-in-out"

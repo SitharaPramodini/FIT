@@ -9,106 +9,102 @@ const Stage = () => {
   const cards = [
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
     {
       title: "Award for Information security",
-      description: "A trophy is a tangible, decorative item used to remind of a specific achievement, serving as recognition or evidence of merit. Trophies are most commonly awarded for sporting events,[1] ranging from youth sports to professional level athletics. Additionally, trophies are presented for achievements in Academic, Arts and Entertainment, Business, Military, Professional awards, Community Service, Hunting, and Environmental accomplishments.",
+      description: "FIT is thrilled to be honored as the Fortinet Best Partner for Government Business. This recognition reflects our dedication to protecting government entities with advanced cybersecurity solutions",
       image: "curtain/trophy.png",
       video: "trophy.gif",
     },
   ];
 
+
   useEffect(() => {
-    // Force initialization of confetti canvas
-    const initializeConfetti = async () => {
-      await confetti({ particleCount: 0, ticks: 0 }); // Dummy confetti to initialize
-    };
-    initializeConfetti();
+    // Trigger confetti once to ensure canvas initialization
+    confetti({
+      particleCount: 1,
+      ticks: 10, // Minimal confetti to initialize
+    });
   }, []);
 
   const handleCardClick = (card) => {
-    // Confetti effects
+    
+    // Trigger confetti effects
     confetti({
-      origin: {
-        x: 0,
-        y: 0.5,
-      },
+      origin: { x: 0, y: 0.5 },
       particleCount: 50,
       zIndex: 1,
       spread: 60,
       ticks: 500,
+      colors: ["#FFD700", "#FFC107"],
     });
     confetti({
-      origin: {
-        x: 1,
-        y: 0.5,
-      },
+      origin: { x: 1, y: 0.5 },
       particleCount: 50,
       zIndex: 1,
       spread: 60,
       ticks: 500,
+      colors: ["#FFD700", "#FFC107"],
     });
     confetti({
-      origin: {
-        x: 0.5,
-        y: 0.5,
-      },
+      origin: { x: 0.5, y: 0.5 },
       particleCount: 50,
       zIndex: 1,
       spread: 60,
       ticks: 500,
+      colors: ["#FFD700", "#FFC107"],
     });
 
-    setSelectedCard(card); // Set the clicked card as selected
+    // Update state to display the selected card
+    setSelectedCard(card);
   };
 
 
-  
 
   return (
     <div className="sticky w-full bg-gradient-to-b from-[#111827] to-transparent text-white pt-20 pb-10 overflow-hidden">
@@ -128,7 +124,7 @@ const Stage = () => {
                   className="selected-card-animation w-1/2"
                 />
                 <div className="flex flex-col w-1/2">
-                  <h2 className="text-white text-3xl">{selectedCard.title}</h2>
+                  <h2 className="text-orange-400 text-3xl">{selectedCard.title}</h2>
                   <p className="text-white pr-48 py-16 leading-7">{selectedCard.description}</p>
                 </div>
               </div>
@@ -139,14 +135,16 @@ const Stage = () => {
               
             )}
           </div>
+          
         </div>
         <div className="secret"></div>
         {/* <button >Confetti</button> */}
       </header>
+
       <div>
         <div className="slider-container px-4 py-2 opacity-50">
           {/* Sliding container */}
-          <div className="animate-scroll">
+          <div className="animate-scroll flex">
             {cards.map((card, index) => (
               <button
                 key={index}

@@ -2,7 +2,7 @@
 
 const services = [
   {
-    videoSource: "/fit/public/matrix.mp4",
+    videoSource: "/test/matrix.mp4",
     title: "Information Security",
     subtitle:
       "Information Security Solutions protect sensitive data with firewalls, encryption, and intrusion detection, helping organisations mitigate risks and secure digital assets.",
@@ -47,10 +47,10 @@ const services = [
       "We help businesses create and implement cutting-edge strategies to innovate and stay ahead of the competition.",
   },
   {
-    videoSource: "/fit/public/circuit3.mp4",
+    videoSource: "/test/circuit3.mp4",
     title: "Consultancy Service",
     subtitle:
-      "IT consultancy offers expert guidance, optimizing infrastructure, enhancing efficiency, reducing costs, and providing ongoing support for business goals.",
+      "IT Consultancy Services involve providing expert advice and strategic guidance to businesses to help them optimize their IT infrastructure, streamline operations, and achieve their goals. This includes everything from assessing current systems, recommending improvements, planning and implementing new technologies, and providing ongoing support.",
     subservices: [
       // {
       //   name: "Next Generation Firewall – Perimeter / Internal​",
@@ -62,10 +62,10 @@ const services = [
       "Our cybersecurity solutions safeguard your organization from evolving threats and vulnerabilities.",
   },
   {
-    videoSource: "/fit/public/cyber.mp4",
+    videoSource: "/test/cyber.mp4",
     title: "Cyber Security",
     subtitle:
-      "FIT offers expert cybersecurity services to protect and enhance your organization’s digital infrastructure and resilience.",
+      "Cyber Security involves protecting computer systems, networks, and data from digital attacks, unauthorized access, damage, or theft. It includes various practices and technologies designed to safeguard the integrity, confidentiality, and availability of information.",
     subservices: [
       {
         name: "Cloud Security Posture​ Assessment​",
@@ -166,11 +166,11 @@ const services = [
       "We offer robust server infrastructure to ensure your business runs smoothly with high availability and scalability.",
   },
   {
-    videoSource: "/fit/public/Server.mp4",
+    videoSource: "/test/Server.mp4",
     title:
-      "Data Center Solutions, Virtualization, Servers, Storage, and Backup",
+      "9.	Data Centre, Server Storage and Backup, Virtualization and Cloud",
     subtitle:
-      "Transform your IT infrastructure with tailored data center solutions for optimal performance, scalability, and resilience.",
+      "A data center is the beating heart of modern IT infrastructure—a centralized hub where critical applications, data, and IT resources are hosted, managed, and secured. Whether physical or virtual, a data center serves as the backbone of every organization's digital operation, powering everything from enterprise applications and databases to cloud services and virtual desktops.",
     subservices: [
       {
         name: "Density-optimized​ Servers​",
@@ -232,10 +232,10 @@ const services = [
     ],
   },
   {
-    videoSource: "/fit/public/Collaboration.mp4",
+    videoSource: "/test/Collaboration.mp4",
     title: "Collaboration Suites and Applications",
     subtitle:
-      "Our integrated solutions boost secure, efficient teamwork with integrated email, productivity tools, and advanced security features like DLP and AI-powered protection.",
+      "Collaboration suites and business applications designed to enhance communication, productivity, and operational efficiency. It includes secure email platforms as well as enterprise tools for contact centers, CRM, ERP, LMS, HR, and document management. Cloud services for scalable IT infrastructure and database support to ensure data security and performance is vital. With modern communication tools, business intelligence, and industry-specific solutions, we empower organizations to streamline workflows, drive growth, and stay competitive in a digital-first world. ",
       subservices: [
         // {
         //   name: "Next Generation Firewall – Perimeter / Internal​",
@@ -286,10 +286,10 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/fit/public/ManageService.mp4",
+    videoSource: "/test/ManageService.mp4",
     title: "Next Generation Managed Services Provider",
     subtitle:
-      "Entrust your IT infrastructure to our managed services for reliable, secure performance, enabling you to focus on core business.",
+      "Next-Generation Managed Services Providers (MSPs) go beyond traditional IT support to offer advanced services such as cloud computing, cybersecurity, data analytics, and proactive system management. They focus on leveraging cutting-edge technologies to improve business operations and drive digital transformation.",
     subservices: [
       {
         name: "IT Infrastructure Operation & Maintenance Managed Services​​",
@@ -316,10 +316,10 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/fit/public/Network.mp4",
-    title: "IP PABX and Unified Communication Systems",
+    videoSource: "/test/Network.mp4",
+    title: "10.	Unified Communications and IP PABX",
     subtitle:
-      "Streamline communication with our IP PABX and Unified Systems, enhancing real-time collaboration and boosting productivity across platforms.",
+      "PABX (Private Automatic Branch Exchange) systems manage internal phone networks within an organization. Unified Communication integrates multiple communication tools like voice, video, messaging, and collaboration into a single platform, enabling seamless interaction.",
     subservices: [
       {
         name: "ComX Hosted Solution: Your Seamless Business Advantage with UCaaS ?​​",
@@ -336,10 +336,10 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/fit/public/Network.mp4",
-    title: "Enterprise Networking",
+    videoSource: "/test/Network.mp4",
+    title: "Enterprise Networking and WI-FI",
     subtitle:
-      "FIT’s enterprise networking solutions optimize performance, enhance agility, and support seamless communication, ensuring scalable infrastructure for growing business needs.",
+      "Enterprise Networking and Wi-Fi solutions are essential for establishing and maintaining robust, secure, and high-performance networks within organizations. This includes LAN, WAN, and wireless networks.",
     subservices: [
       {
         name: "Routing and switching​",
@@ -376,7 +376,7 @@ const services = [
       "Our team specializes in creating custom network solutions tailored to your business needs, ensuring optimal performance and security.",
   },
   {
-    videoSource: "/fit/public/innovation.mp4",
+    videoSource: "/test/innovation.mp4",
     title: "Innovation Centre",
     subtitle:
       "At Center of Innovation Make your vision a Reality. Transform your business idea into a cutting-edge digital solution!",

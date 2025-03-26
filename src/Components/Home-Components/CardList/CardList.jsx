@@ -16,7 +16,7 @@ import { IoBulbOutline } from "react-icons/io5";
 const CardList = () => {
   const [isLight, setIsLight] = useState(false);
 
-  const videoRef1 = useRef(null); 
+  const videoRef1 = useRef(null);
   const videoRef2 = useRef(null);
   const videoRef3 = useRef(null);
   const videoRef4 = useRef(null);
@@ -47,7 +47,7 @@ const CardList = () => {
       title: "Consultancy Services",
       description:
         "Leverage our expertise and industry insights to optimize your IT infrastructure and processes.",
-      },
+    },
     {
       icon: <MdOutlineSecurity />,
       title: "Cyber Security",
@@ -115,14 +115,14 @@ const CardList = () => {
               else if (index === 7) handleMouseLeave(videoRef7);
               else if (index === 8) handleMouseLeave(videoRef8);
             }}
-            
+
           >
             <span className="icon">{card.icon}</span>
 
             {index === 0 && <CanvasEffect />}
 
             {index === 1 && (
-              
+
               <div className="circuit">
                 <video
                   ref={videoRef1}
@@ -136,7 +136,7 @@ const CardList = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              
+
             )}
 
             {index === 2 && (
@@ -230,21 +230,21 @@ const CardList = () => {
               </div>
             )}
 
-<Link to={`/service/${index}`}>
-  <h4>{card.title}</h4>
-  <p>{card.description}</p>
-  <div className="shine"></div>
-  <div className="background">
-    <div className="tiles">
-      {[...Array(10)].map((_, index) => (
-        <div key={index} className={`tile tile-${index + 1}`}></div>
-      ))}
-    </div>
-    <div className="line line-1"></div>
-    <div className="line line-2"></div>
-    <div className="line line-3"></div>
-  </div>
-</Link>
+            <Link to={`/test/service/${index}`}>
+              <h4>{card.title}</h4>
+              <p>{card.description}</p>
+              <div className="shine"></div>
+              <div className="background">
+                <div className="tiles">
+                  {[...Array(10)].map((_, index) => (
+                    <div key={index} className={`tile tile-${index + 1}`}></div>
+                  ))}
+                </div>
+                <div className="line line-1"></div>
+                <div className="line line-2"></div>
+                <div className="line line-3"></div>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

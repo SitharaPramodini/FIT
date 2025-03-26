@@ -44,7 +44,7 @@ const WhyComX = () => {
                     </h2>
                 </div>
                 <div className=" hidden md:flex righthr w-4/5 flex-col justify-around pl-6">
-                    <hr class="trans--grow hr1 h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+                    <hr className="trans--grow hr1 h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
                 </div>
                 <div className="list md:ml-12 pb-16">
                     <div className="animate-on-scroll flex flex-row items-center mt-6">

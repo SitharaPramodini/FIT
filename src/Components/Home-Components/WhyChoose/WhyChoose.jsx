@@ -43,7 +43,7 @@ const WhyChoose = () => {
   return (
     <div>
       {/* WhyChoose */}
-      <div className="home flex flex-row flex-wrap w-full bg-[#161616] px-4 pt-16">
+      <div className="home flex flex-row flex-wrap w-full bg-black px-4 pt-16">
         <div className="flex flex-col md:w-1/2 w-auto md:pl-8">
           <h4 className="animate-on-scroll text-title text-xl font-semibold leading-none text-[#ff6000] md:text-2xl">WHY CHOOSE FIT</h4>
           <h2 className="animate-on-scroll text-title mt-4 text-3xl font-bold text-white md:text-5xl md:leading-[1.2]">Crafting Digital Solutions For Your Businesses</h2>

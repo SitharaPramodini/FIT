@@ -54,14 +54,14 @@ const Solutions = () => {
                         <p className="text-[15px] text-center text-[#a1a5a5]">Willingness to go the extra mile to deliver an exceptional service</p>
                     </div>
 
-                    <div className="solution-card wallet mx-auto">
+                    {/* <div className="solution-card wallet mx-auto">
                         <div className="overlay"></div>
                         <div className="circle">
                             <FaHandHoldingHeart className="text-[3rem] text-white" />
                         </div>
                         <p className="font-semibold text-[#ff6000]">EMPATHY</p>
                         <p className="text-[15px] text-center text-[#a1a5a5]">Vitae ex mattis consectetuer etiam natoque metus elit curabitur posuere netus ultrices</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

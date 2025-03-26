@@ -86,7 +86,7 @@ const Projects = () => {
   return (
     // <div className="home flex w-full bg-[#161616] px-4 pt-16">
     <section className="slide-container h-auto bg-[#020a1a] ">
-        <h2 class="pt-4 text-3xl text-center font-bold text-white md:text-5xl md:leading-[1.2]">Key Projects</h2>
+        <h2 className="pt-4 text-3xl text-center font-bold text-white md:text-5xl md:leading-[1.2]">Key Projects</h2>
 
       <Swiper
   className="slide-content"
@@ -120,7 +120,7 @@ const Projects = () => {
                 </div>
                 <div className="content">
                 <p className=" text-gray-500 text-sm font-medium">{card.description}</p>
-                <h2 class="mt-2 text-xl font-bold text-[#ff6000] md:text-2xl md:leading-[1]">{card.bold}</h2>
+                <h2 className="mt-2 text-xl font-bold text-[#ff6000] md:text-2xl md:leading-[1]">{card.bold}</h2>
                 </div>
               </div>
             </div>

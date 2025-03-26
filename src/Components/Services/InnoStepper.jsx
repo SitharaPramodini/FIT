@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 const InnoStepper = () => {
 
     return (
-        <div class="container flex md:flex-row gap-x-4 flex-col gap-y-8 justify-center mt-8 mb-4">
-            <div class="consultcard  h-[25rem] w-[18rem] mx-auto">
-                <div class="stepcontainer">
-                    <div class="stepborder z-10 absolute" aria-hidden="true"></div>
+        <div className="container flex md:flex-row gap-x-4 flex-col gap-y-8 justify-center mt-8 mb-4 mx-auto">
+            <div className="consultcard  h-[25rem] w-[18rem] mx-auto">
+                <div className="stepcontainer">
+                    <div className="stepborder z-10 absolute" aria-hidden="true"></div>
                     <div className='stepcircle bg-[#26272a] w-16 h-16 z-10 absolute text-white flex justify-evenly items-center text-2xl font-bold'>01</div>
                 </div>
-                <div class="box">
-                    <div class="content">
+                <div className="box">
+                    <div className="content">
                         <h2 className='step'>01</h2>
                         <div className="iconcard mx-auto text-[1rem] font-medium mb-4 text-white ">
                             Audit Current Workflows
@@ -21,13 +21,13 @@ const InnoStepper = () => {
                 </div>
             </div>
 
-            <div class="consultcard  h-[25rem] w-[18rem] mx-auto">
-            <div class="stepcontainer">
-                    <div class="stepborder z-10 absolute" aria-hidden="true"></div>
+            <div className="consultcard  h-[25rem] w-[18rem] mx-auto">
+            <div className="stepcontainer">
+                    <div className="stepborder z-10 absolute" aria-hidden="true"></div>
                     <div className='stepcircle bg-[#26272a] w-16 h-16 z-10 absolute text-white flex justify-evenly items-center text-2xl font-bold'>02</div>
                 </div>
-                <div class="box">
-                    <div class="content">
+                <div className="box">
+                    <div className="content">
                         <h2 className='step'>02</h2>
                         <div className="iconcard mx-auto text-[1rem] font-medium mb-4 text-white ">
                             Select the Right Tools
@@ -38,13 +38,13 @@ const InnoStepper = () => {
                 </div>
             </div>
 
-            <div class="consultcard  h-[25rem] w-[18rem] mx-auto">
-            <div class="stepcontainer">
-                    <div class="stepborder z-10 absolute" aria-hidden="true"></div>
+            <div className="consultcard  h-[25rem] w-[18rem] mx-auto">
+            <div className="stepcontainer">
+                    <div className="stepborder z-10 absolute" aria-hidden="true"></div>
                     <div className='stepcircle bg-[#26272a] w-16 h-16 z-10 absolute text-white flex justify-evenly items-center text-2xl font-bold'>03</div>
                 </div>
-                <div class="box">
-                    <div class="content">
+                <div className="box">
+                    <div className="content">
                         <h2 className='step'>03</h2>
                         <div className="iconcard mx-auto text-[1rem] font-medium mb-4 text-white ">
                             Implement and Test
@@ -57,13 +57,13 @@ const InnoStepper = () => {
 
 
 
-            <div class="consultcard  h-[25rem] w-[18rem] mx-auto">
-            <div class="stepcontainer">
-                    <div class="stepborder z-10 absolute" aria-hidden="true"></div>
+            <div className="consultcard  h-[25rem] w-[18rem] mx-auto">
+            <div className="stepcontainer">
+                    <div className="stepborder z-10 absolute" aria-hidden="true"></div>
                     <div className='stepcircle bg-[#26272a] w-16 h-16 z-10 absolute text-white flex justify-evenly items-center text-2xl font-bold'>04</div>
                 </div>
-                <div class="box">
-                    <div class="content">
+                <div className="box">
+                    <div className="content">
                         <h2 className='step'>04</h2>
                         <div className="iconcard mx-auto text-[1rem] font-medium mb-4 text-white ">
                             Monitor and Optimize

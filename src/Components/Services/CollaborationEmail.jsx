@@ -12,7 +12,7 @@ const CollaborationEmail = () => {
                     </h2>
                 </div>
                 <div className="hidden md:flex righthr w-2/3 flex-col justify-around pl-6">
-                    <hr class="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+                    <hr className="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
 
                 </div>
                 <p className="my-4 font-normal text-md md:text-lg md:leading-[1.6] text-white">

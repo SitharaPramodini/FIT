@@ -23,7 +23,7 @@ const Collaboration = () => {
             </p>
         </div>
         <div className="hidden md:flex righthr w-3/5 flex-col justify-around pl-6">
-        <hr class="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
+        <hr className="h-0.5 w-full bg-gradient-to-r from-[#ff6000] via-gray-500  border-none" />
         </div>
         <p className="my-2 font-normal text-md md:text-md md:leading-[1.6] text-white">
         Your company or organization deserves the most convenient browser-based solution, and we have just what you need. Our comprehensive offerings include Business email, TeamChat for project teamwork, real-time office document collaboration and online meetings. All in our secure cloud and for half the usual cost.
@@ -34,10 +34,10 @@ const Collaboration = () => {
 
             {/* cards */}
             <div className="cardrows flex flex-col ">
-                <div class="container flex md:flex-row gap-x-8 flex-col gap-y-8 justify-center mt-8 mb-4">
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                <div className="container flex md:flex-row gap-x-8 flex-col gap-y-8 justify-center mt-8 mb-4">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>01</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                 <MdEmail />
@@ -49,9 +49,9 @@ const Collaboration = () => {
                         </div>
                     </div>
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>02</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <FaUserFriends  />
@@ -63,9 +63,9 @@ const Collaboration = () => {
                         </div>
                     </div>
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>03</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <FaVideo  />
@@ -79,9 +79,9 @@ const Collaboration = () => {
 
 
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>04</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <IoDocumentText  />
@@ -95,10 +95,10 @@ const Collaboration = () => {
 
 
                 </div>
-                <div class="container flex md:flex-row gap-x-8 flex-col gap-y-2 justify-center mt-8 mb-4">
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                <div className="container flex md:flex-row gap-x-8 flex-col gap-y-2 justify-center mt-8 mb-4">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>05</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <FaMobileScreen  />
@@ -109,9 +109,9 @@ const Collaboration = () => {
                         </div>
                     </div>
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>06</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <HiMiniClipboardDocumentCheck  />
@@ -123,9 +123,9 @@ const Collaboration = () => {
                         </div>
                     </div>
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>07</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <MdMarkEmailRead  />
@@ -139,9 +139,9 @@ const Collaboration = () => {
 
 
 
-                    <div class="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
-                        <div class="box">
-                            <div class="content">
+                    <div className="consultcard md:min-w-[21%] min-w-[85%] h-[240px]">
+                        <div className="box">
+                            <div className="content">
                                 <h2>08</h2>
                                 <div className="iconcard mx-auto text-[3rem] mb-4 text-white ">
                                     <IoSettings  />

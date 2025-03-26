@@ -1,3 +1,19 @@
+/* Auto-scroll animation */
+@keyframes scrollCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust based on content width */
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scrollCards 20s linear infinite; /* Adjust time for speed */
+}
+
+
 /* Smooth transition for heading and selected card */
 .layer2 {
   position: relative;
